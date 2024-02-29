@@ -8,7 +8,7 @@ terraform {
 
 resource "yandex_container_registry" "gamion-container-registry" {
   name = "gamion-container-registry"
-  folder_id = var.Folder_id
+  folder_id = var.folder_id
   labels = {
     my-label = "container-registry"
   }

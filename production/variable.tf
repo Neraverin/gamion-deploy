@@ -2,7 +2,7 @@ variable "token" {
   type = string
 }
 
-variable "Env" {
+variable "env" {
     type    = string
     default = "production"
 }

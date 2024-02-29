@@ -3,13 +3,13 @@
 module "docker-registry" {
     source      = "../modules/docker-registry"
 
-    Environment = var.Env
-    Folder_id = var.YC_FOLDER_ID
+    environment = var.Env
+    folder_id = var.YC_FOLDER_ID
 }
 
 module "frontend" {
     source      = "../modules/frontend"
 
-    Environment = var.Env
-    Frontend_memory = 512
+    environment = var.env
+    frontend_memory = 512
 }

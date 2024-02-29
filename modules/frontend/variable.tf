@@ -1,9 +1,9 @@
-variable "Environment" {
+variable "environment" {
     type    = string
     default = ""
 }
 
-variable "Frontend_memory" {
+variable "frontend_memory" {
     type = number
     default = 0
 }
