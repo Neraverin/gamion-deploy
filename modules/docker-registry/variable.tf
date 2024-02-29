@@ -1,9 +1,9 @@
-variable "Environment" {
+variable "environment" {
     type    = string
     default = ""
 }
 
-variable "Folder_id" {
+variable "folder_id" {
     type    = string
     default = ""
 }
