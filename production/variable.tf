@@ -1,4 +1,4 @@
-variable "token" {
+variable "TOKEN" {
   type = string
 }
 
