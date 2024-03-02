@@ -3,17 +3,17 @@ variable "environment" {
     default = ""
 }
 
-variable "rcu_limit" {
-    type = number
-    default = 10
+variable "resource_preset_id" {
+    type = string
+    default = "s2.micro"
 }
 
-variable "storage_size_limit" {
+variable "disk_size" {
     type = number
-    default = 50
+    default = 20
 }
 
-variable "throttling_rcu_limit" {
-    type = number
-    default = 0
+variable "disk_type_id" {
+    type = string
+    default = "network-ssd"
 }
