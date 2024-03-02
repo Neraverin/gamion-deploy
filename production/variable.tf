@@ -2,6 +2,10 @@ variable "TOKEN" {
   type = string
 }
 
+variable "PG_USER_PASSWORD" {
+  type = string
+}
+
 variable "env" {
     type    = string
     default = "production"

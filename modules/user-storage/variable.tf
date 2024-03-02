@@ -17,3 +17,7 @@ variable "disk_type_id" {
     type = string
     default = "network-ssd"
 }
+
+variable "db_admin_password" {
+    type = string
+}

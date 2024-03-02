@@ -38,7 +38,7 @@ resource "yandex_mdb_postgresql_database" "users-storage-pgsql-instance1" {
 resource "yandex_mdb_postgresql_user" "users-db-admin" {
   cluster_id = yandex_mdb_postgresql_cluster.users-storage-pgsql-cluster.id
   name       = "users-db-admin"
-  password   = "user1user1"
+  password   = var.db_admin_password
 }
 
 resource "yandex_vpc_network" "gamion-net" {

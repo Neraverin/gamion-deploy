@@ -16,5 +16,5 @@ module "docker-registry" {
 
 module "user-storage" {
     source      = "../modules/user-storage"
-  
+    db_admin_password = var.PG_USER_PASSWORD
 }
